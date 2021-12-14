@@ -193,19 +193,41 @@ li a {
         text-align: center;
         width: 100%; 
         border-radius: 5px;
-      
         background: white; 
       } 
       #left1{
-   
         width: 100%; 
-     
-        border-radius: 5px;
-        
+        border-radius: 5px; 
         background:white; 
     }
   }
-  @media only screen and (max-width: 400px) {
-    
-    
+  @media only screen and (max-width: 500px) {
+    #left{
+        width: 100%; 
+        height: 80%;
+        border-radius: 5px;
+        background:white; 
+    }
+    #left img{
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .aboutMe{
+        margin-top: 150%;
+        text-align: center;
+       
   }
+  #right1{ 
+    margin-top: 20px;
+    width: 100%; 
+    border-radius: 5px; 
+    background:white; 
+  } 
+  #left1{
+    
+    width: 100%; 
+    border-radius: 5px; 
+    background:white; 
+}
+}
