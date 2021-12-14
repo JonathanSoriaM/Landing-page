@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding:0;
+    background: #E7E7E7;
+}
+
+:root {
+    --main-bg-color:#0FB57B;
+   
+}
+
+
+
+.fondo{
+ 
+    padding: 30px;
+    width: 100%;
+    height: 250px;
+    background: var(--main-bg-color);
+}
+.nameTitle{
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+    margin-left: 15%;
+
+}
+.cardPresent{
+    margin:2% auto;
+    z-index: 2;
+    width: 48%;
+    height: 350px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#left{
+    width: 40%; 
+    height: 100%;
+    border-radius: 5px;
+  
+    background:white; 
+}
+#left img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+ #right { 
+    width: 60%; 
+    height: 100%;
+    border-radius: 5px;
+    padding: 10px 0px;
+    background: white; 
+  } 
+  #right h6{
+    display: inline-block;
+   
+  margin-top: 10px;
+  margin-left: 5%;
+}
+  #right h5{
+      display: inline-block;
+      color: var(--main-bg-color);
+    margin-top: 10px;
+    margin-left: 5%;
+  }
+  #right p{ 
+  margin-left: 5%;
+  font-size: 14px;
+    
+  } 
+  #right img{ 
+    margin-left: 5%;
+   display: block;
+    } 
+  #right  hr{
+     width: 90%;
+     margin: 0px auto;
+  }
+
+ ul{
+  border-radius: 5px;
+        list-style-type: none;     
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: var(--main-bg-color);
+      
+}
+ul li{ 
+   
+    float: left;
+
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    
+}
+  
+  #left  { float:left;  }
+  #right { float:right; } 
+
+  .default{
+      margin-left: 5%;
+      height: 147px;
+  }
+  
+  .default .imp{
+   font-weight: bold;
+}
+
+.studies{
+
+    margin: 3% auto;
+    width: 48%;
+    height: 300px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#left1{
+   
+    width: 50%; 
+    height: 100%;
+    border-radius: 5px;
+    
+    background:white; 
+}
+#left1 h4{
+   margin-top: 50px;
+    width: 90%; 
+   text-align: center;
+}
+#left1 p{
+   
+    width: 90%; 
+   text-align: center;
+}
+ #right1{ 
+  
+    width: 50%; 
+    height: 100%;
+    border-radius: 5px;
+    padding: 10px 0px;
+    background: white; 
+  } 
+
+  #left1  { float:left;  }
+  #right1 { float:right; } 
+
+.aboutMe{
+    margin-top: 15%;
+    text-align: center;
+    color: var(--main-bg-color);
+}
+
+
+
+/*===== Resonsive Vertical  =====*/
+@media only screen and (max-width: 830px) {
+    .cardPresent{
+        margin:2% auto;
+        z-index: 2;
+        width: 60%;
+        background: white;
+        border-radius: 5px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    #left{
+        width: 100%; 
+        height: 100%;
+        border-radius: 5px;
+        background:white; 
+    }
+    #right { 
+        width: 100%; 
+        height: 100%;
+        border-radius: 5px;
+        padding: 10px 0px;
+        background: white; 
+      } 
+      .aboutMe{
+        margin-top: 70%;
+        text-align: center;
+       
+    }
+    #right1{ 
+        text-align: center;
+        width: 100%; 
+        border-radius: 5px;
+      
+        background: white; 
+      } 
+      #left1{
+   
+        width: 100%; 
+     
+        border-radius: 5px;
+        
+        background:white; 
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    
+    
+  }
