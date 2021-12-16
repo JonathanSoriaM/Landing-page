@@ -6,7 +6,7 @@
     margin: 0 auto;
   }
   :root {
-    --main-bg-color:#0FB57B;
+    --main-bg-color:#103352;
 }
 
   #conference-timeline .timeline-start,
@@ -172,7 +172,36 @@
       display: none;
     }
   }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 550px) {
+    #conference-timeline .timeline-start,
+    #conference-timeline .timeline-end {
+      margin: 0;
+    }
+    #conference-timeline .conference-center-line {
+      margin-left: 0;
+      left: 50px;
+    }
+    .timeline-article .meta-date {
+      margin-left: 0;
+      left: 20px;
+    }
+    .timeline-article .content-left-container,
+    .timeline-article .content-right-container {
+      max-width: 70%;
+      width: auto;
+      float: none;
+      margin-left: 90px;
+      min-height: 53px;
+    }
+    .timeline-article .content-left-container {
+      margin-bottom: 20px;
+    }
+    .timeline-article .content-left,
+    .timeline-article .content-right {
+      padding: 10px 25px;
+      min-height: 65px;
+    }
+
     .timeline-article p {
       margin: 0;
     }
